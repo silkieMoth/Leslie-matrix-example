@@ -52,6 +52,17 @@ fish_year2
 fish_year3 <- fish_leslie %*% fish_year2
 fish_year3
 
+# Population structure in year 1 ----
+fish_year4 <- fish_leslie %*% fish_year3
+fish_year4
+
+# Population structure in year 2 ---- 
+fish_year5 <- fish_leslie %*% fish_year4
+fish_year5
+
+# Population structure in year 3 ----
+fish_year6 <- fish_leslie %*% fish_year5
+fish_year6
 ## ADD YOUR CODE TO PROJECT FOR YEARS 4, 5 & 6 HERE ----
 ```
 
